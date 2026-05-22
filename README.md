@@ -1,50 +1,86 @@
-<<<<<<< HEAD
-# Astro Starter Kit: Basics
+# PrestaShop Developer Ireland
 
-```sh
-npm create astro@latest -- --template basics
+Professional landing page for offering PrestaShop development, support and optimization services for ecommerce businesses in Ireland.
+
+Built with Astro, Tailwind CSS and deployed on Vercel.
+
+---
+
+## Overview
+
+This project is focused on helping ecommerce businesses with:
+
+- PrestaShop bug fixing
+- Store upgrades and migrations
+- Performance optimization
+- Technical SEO improvements
+- Module and theme customization
+- Ongoing maintenance and support
+
+The goal of this website is to provide a fast, modern and SEO-friendly platform to showcase specialized PrestaShop services.
+
+---
+
+## Tech Stack
+
+- Astro
+- Tailwind CSS
+- TypeScript
+- Vercel
+
+---
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+
+Run development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+Preview production build locally:
+
+npm run preview
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
+## Project Structure
 ```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+src/
+├── components/
+├── layouts/
+├── pages/
+├── styles/
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- `components/` → Reusable UI components
+- `layouts/` → Shared page layouts
+- `pages/` → Website routes
+- `styles/` → Global styles
+  
+SEO Focus
 
-## 🧞 Commands
+The website is optimized for keywords such as:
 
-All commands are run from the root of the project, from a terminal:
+PrestaShop Developer Ireland
+PrestaShop Support
+PrestaShop Upgrades
+Ecommerce Developer Ireland
+PrestaShop Optimization
+Deployment
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+This project is designed for deployment on Vercel.
 
-## 👀 Want to learn more?
+Contact
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-=======
-# prestashopGRS
->>>>>>> d7b5574f13a9d7f355945a7eb5cbd8cf0a2c4867
+Guillermo Ruiz
+
+Portfolio: https://guillermo-rs.vercel.app/
+
+Email: guillermo1135@gmail.com
