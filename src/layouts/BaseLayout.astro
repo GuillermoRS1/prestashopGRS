@@ -1,0 +1,27 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = 'PrestaShop Developer in Ireland'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+</head>
+
+<body class="bg-slate-950 text-white antialiased selection:bg-blue-500/30">
+  <slot />
+</body>
+</html>

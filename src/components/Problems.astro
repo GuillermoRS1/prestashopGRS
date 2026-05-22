@@ -1,0 +1,24 @@
+<section class="mx-auto max-w-6xl px-6 py-24">
+  <p class="text-sm font-semibold uppercase tracking-widest text-blue-400">
+    Common problems
+  </p>
+
+  <h2 class="mt-3 text-3xl font-bold md:text-5xl">
+    Issues I can help you solve
+  </h2>
+
+  <div class="mt-10 grid gap-4 md:grid-cols-2">
+    {[
+      'Your checkout is not working correctly',
+      'Your PrestaShop store is slow',
+      'A module broke after an update',
+      'You need to upgrade safely',
+      'Your theme needs custom changes',
+      'You need ongoing technical support'
+    ].map((item) => (
+      <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-5 text-slate-300">
+        {item}
+      </div>
+    ))}
+  </div>
+</section>
